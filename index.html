@@ -1,0 +1,493 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="pngtree.jpg">
+    <title>Home</title>
+ </head>
+ <body>
+  <!-- Navbar -->
+  <nav class="navbar containebg-body-tertiaryr topnav sticky-top">
+      <a class="navbar-brand" href="#">
+        <img src="pngtree.jpg" alt="logo" width="40" height="34">
+      </a>
+      <!-- <form class="d-flex topform" role="search">
+        <input class="form-control me-2 p-0 searchBTN" type="search" placeholder=" Search" aria-label="Search">
+        <button class="btn btn-outline-success border border-white text-white p-1 topbtn" type="submit">Search</button>
+      </form> -->
+      <!-- <nav> -->
+        <div class="hamburger">
+          <input type="checkbox" id="hamburger-checkbox">
+          <label for="hamburger-checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul class="menu">
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="burger2.1.jpg" class="d-block w-100" alt="image1">
+        <div class="carousel-caption d-none d-md-block">
+        <h1 class="txtImg">DELICIOUS ITALIAN <br> HOME MADE <br> CUISINE</h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="burger3.jpg" class="d-block w-100" alt="image2">
+      </div>
+      <div class="carousel-item">
+        <img src="burger2.1.jpg" class="d-block w-100" alt="image3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Paragraph -->
+  <div>
+    <p class="para">A hamburger or burger is an American fast food. It is a type of sandwich with a patty of cooked ground meat between the 
+      two halves of a bun. Tomatoes, onions, cheese, salad and dips may also be added. The hamburger may be eaten without a knife
+       and fork, so it is a fast food which can be eaten anywhere.</p>
+  </div>
+   <!-- card -->
+  <section class="foods pb-5" id="foods">
+    <div class="container">
+      <div class="grid">
+          <div class="row mt-5">
+              <div class="col-md-3">
+                  <div class="card shadow-lg my-2 h-100 zoom">
+                      <img src="istockphoto.jpg" alt="Chinese cuisine" class="img-fluid">
+                      <div class="caed-body">
+                          <p class="h4 card-title fw-bold cardHeader">Chinese cuisine</p>
+                          <p class="fst-italic cardp">Chinese cuisine comprise cuisines
+                               originating from China. Because of the Chinese diaspora and historical power of the country</p>
+                          
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <div class="card shadow-lg my-2 h-100 zoom">
+                      <img src="istockphoto.jpg" alt="American cuisine" class="img-fluid">
+                      <div class="caed-body">
+                          <p class="h4 card-title fw-bold cardHeader">American cuisine</p>
+                          <p class="fst-italic cardp">American cuisine consists of the cooking 
+                              style and traditional dishes prepared in the United States.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <div class="card shadow-lg my-2 h-100 zoom">
+                      <img src="istockphoto.jpg" alt="French cuisine" class="img-fluid">
+                      <div class="caed-body">
+                          <p class="h4 card-title fw-bold cardHeader">French cuisine</p>
+                          <p class="fst-italic cardp">French cuisine is the cooking traditions
+                               and practices from France. In the 14th century, Guillaume Tirel, a court chef known as "Taillevent"</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-3">
+                  <div class="card shadow-lg my-2 h-100 zoom">
+                      <img src="istockphoto.jpg" alt="Indian cuisine" class="img-fluid">
+                      <div class="caed-body">
+                          <p class="h4 card-title fw-bold cardHeader">Indian cuisine</p>
+                          <p class="fst-italic cardp">Indian cuisine consists of a variety of regional
+                               and traditional cuisines native to India.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Menu -->
+ <section>
+  <div class="container bg-light">
+    <div class="column">
+      <img src="slider-1.jpg" alt="Image">
+    </div>
+    <div class="column">
+        <p class="h2 fw-bold">4 Types of Food Service</p>
+      <ol>
+        <li class="fw-medium">Waiter service</li>
+        <li class="fw-medium">Chinese banquet service</li>
+        <li class="fw-medium">Buffet service</li>
+        <li class="fw-medium">Self-service</li>
+      </ol>
+    </div>
+  </div>
+ </section>
+ <!-- 2nd paragraph -->
+ <div>
+  <p class="h2 fw-bold para2">What we do</p>
+   <p class="para">Two basic services provided by a hotel are room and board. Thus, room (or the official term hotel accommodation)
+     is the main service of the enterprise that belong to hotel business. Checking-in and checking-out are held round-the-clock.
+      Besides providing an accommodation for temporary staying, related services such as changing bedclothes, giving towels and hygiene
+       items, the opportunity to use appliances and TV set, cleaning and sanitation are available. All these services are included into
+        the cost of a hotel room in accordance with contractual obligations.</p>
+</div>
+
+
+<!-- 2nd Corosal -->
+<div id="carouselExample" class="carousel slide carousel-dark">
+  <div class="carousel-inner TwoCarousel" style="margin-bottom: 20px;">
+    <div class="carousel-item active">
+      <div class="cards-wrapper">
+          <div class="card">
+              <div class="image-wrapper">
+              <img src="image-1.jpg"   alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Annual Red Slocomb Cheese Festival</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-warning">See More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                  <img src="image-2.jpg"   alt="...">
+                  </div>
+              <div class="card-body">
+                <h5 class="card-title">The Flour City <br>Brewers Sun Festival</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-warning">See More</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                  <img src="image-3.jpg"   alt="...">
+                  </div>
+              <div class="card-body">
+                <h5 class="card-title">The Taste Burger Summer Party</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-warning">See More</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+          <div class="card" >
+              <div class="image-wrapper">
+                  <img src="image-1.jpg"   alt="...">
+                  </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" >
+              <div class="image-wrapper">
+                  <img src="image-2.jpg"   alt="...">
+                  </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" >
+              <div class="image-wrapper">
+                  <img src="image-3.jpg"   alt="...">
+                  </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--  -->
+
+   <!-- Menu 1 -->
+   <section class="menus">
+    <div class="menu-1 p-5" id="menus">
+      <div class="contenor">
+        <div class="grid">
+            <div class="row">
+                <div class="col-md-6">
+                   <p class="h2 fw-bold zoom">MEGA FISH BURGER DELUXE</p>
+                   <p class="lead fst-italic">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod,
+                     iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel. Tincidunt
+                      integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elite
+                       sartonetro permo.</p>
+                       <p class="fw-bolder h1">$ 7.75</p>
+                       <br>
+                       <p>CARNIVOROUS</p>
+                       <div class="progress" style="height: 4px;">
+                        <div class="progress-bar bg-dark" role="progressbar"  style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <br>
+                       <p>VEGETARIN</p>
+                       <div class="progress" style="height: 4px;">
+                        <div class="progress-bar bg-dark" role="progressbar"  style="width: 35%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                       
+                </div>
+                <div class="col-md-6 p-3 zoom">
+                   <img src="gridIMG\menu.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="menus">
+    <div class="menu-1 p-5" id="menus">
+        <div class="contenor">
+            <div class="grid">  
+                <div class="row">
+                    <div class="col-md-6 p-3 zoom">
+                        <img src="gridIMG\menu.jpg" class="img-fluid" alt="">
+                     </div>
+                     <div class="col-md-6">
+                        <p class="h2 fw-bold zoom">MEGA DOUBLE CHEESE BURGER</p>
+                        <p class="lead fst-italic">Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque
+                             euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor,
+                              metus vel. Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod,
+                               iaculis eu lacus nunc mi elite milleporteno.</p>
+                               <p class="fw-bolder h1">$ 8.50</p>
+                               <br>
+                               <p>CARNIVOROUS</p>
+                               <div class="progress" style="height: 4px;">
+                                <div class="progress-bar bg-dark" role="progressbar"  style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <br>
+                               <p>VEGETARIN</p>
+                               <div class="progress" style="height: 4px;">
+                                <div class="progress-bar bg-dark" role="progressbar"  style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                     </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+</section>
+
+<!-- Grid image -->
+<div class="row">
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid1.jpg" alt="Image 1" class="low">
+      <div class="image-text">THE PERFECT BURGER</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid2.jpg" alt="Image 2" class="low">
+      <div class="image-text">CHEESE TOAST DELUXE</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid3.jpg" alt="Image 3" class="low">
+      <div class="image-text">SUMMER YELLOW SNACK</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid4.jpg" alt="Image 4" class="low">
+      <div class="image-text">CHEESE TOAST BIG</div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid5.jpg" alt="Image 5" class="low">
+      <div class="image-text">CHEESE BURGER DELUXE</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid6.jpg" alt="Image 6" class="low">
+      <div class="image-text">SALAD PIADINA EGGS</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid7.jpg" alt="Image 7" class="low">
+      <div class="image-text">MEXICAN HOT PIADINA</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="image-container">
+      <img src="gridIMG\grid8.jpg" alt="Image 8" class="low">
+      <div class="image-text">ITALIAN BRUSCHETTE</div>
+    </div>
+  </div>
+</div>
+<!-- Grid image end -->
+
+   <!-- Menu card container --> 
+   <div class=" p-0 " id="ex"> 
+    <p class="text-center fst-italic fw-lighter m-2">List of available plate</p>
+    <h2 class="text-center">THE MENU</h2>
+    <div class="row text-center fst-italic">
+      <div class="col-sm-4">
+        <div class="menu-card">
+          <div class="card">
+             
+            <div class="card-body">
+              <div class="zoom">
+              <h4 class="card-text f">The Perfect Burger</h4>
+              <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+              </div>
+              <div class="zoom">
+                <h4 class="card-text">The Perfect Burger</h4>
+                <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                </div>
+                <div class="zoom">
+                    <h4 class="card-text">The Perfect Burger</h4>
+                    <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                    </div>
+                    <div class="zoom">
+                        <h4 class="card-text">The Perfect Burger</h4>
+                        <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="menu-card">
+          <div class="card">
+             
+            <div class="card-body">
+             
+                <div class="zoom">
+                    <h4 class="card-text">The Perfect Burger</h4>
+                    <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                    </div>
+                    <div class="zoom">
+                        <h4 class="card-text">The Perfect Burger</h4>
+                        <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                        </div>
+                        <div class="zoom">
+                            <h4 class="card-text">The Perfect Burger</h4>
+                            <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                            </div>
+                            <div class="zoom">
+                                <h4 class="card-text">The Perfect Burger</h4>
+                                <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="menu-card">
+          <div class="card">
+             
+            <div class="card-body">
+               
+                <div class="zoom">
+                    <h4 class="card-text">The Perfect Burger</h4>
+                    <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                    </div>
+                    <div class="zoom">
+                        <h4 class="card-text">The Perfect Burger</h4>
+                        <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                        </div>
+                        <div class="zoom">
+                            <h4 class="card-text">The Perfect Burger</h4>
+                            <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                            </div>
+                            <div class="zoom">
+                                <h4 class="card-text">The Perfect Burger</h4>
+                                <p class="text-muted">Beetroot water spinach okra water chestnut ricebean pea. </p>
+                                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Menu card -->
+
+
+<!-- 2nd Carousel -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slider-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider-3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- <div>
+  <img src="slider-3.jpg" alt="" class="landingslide">
+</div> -->
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    <div class="footer-content">
+      <form class="newsletter-form">
+        <input type="email" name="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <p>© 2023 Your Website. All rights reserved.</p>
+    <img src="pngtree.jpg" alt="logo" width="40" height="34">
+  </div>
+</footer>
+
+ </body>
+ </html>
