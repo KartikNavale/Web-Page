@@ -29,10 +29,11 @@
  .container {
     display: flex;
   }
-  
-  .column {
-    flex-basis: 50%;
+  /* Main */
+  .columnmenu {
+    flex-basis: 50%!important;
     padding: 20px;
+    padding-left: 40px;
   }
   
   .column img {
@@ -156,11 +157,12 @@
   margin: 10px;
 }
 
-.column {
+.column2 {
   flex-basis: 25%;
   padding: 5px;
   box-sizing: border-box;
 }
+ 
 
 .image-container {
   position: relative;
@@ -172,12 +174,12 @@
 
 .image-text {
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 40%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -191,6 +193,10 @@
   .column {
     flex-basis: 50%;
   }
+  .columnmenu {
+    padding-left: 0px;
+  }
+ 
 }
 
 @media screen and (max-width: 576px) {
@@ -273,6 +279,8 @@ nav {
   visibility: visible;
   transform: translateX(0);
 }
+ 
+
 
 .menu {
   display: flex;
@@ -310,6 +318,44 @@ nav {
 .menu-card .card {
   border: none; /* Remove the border */
 }
+  
+/* burgerID */
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#hamburger-checkbox {
+  display: none;
+}
+
+#hamburger-checkbox:checked + label span {
+  background-color: #000;
+}
+
+#hamburger-checkbox:checked ~ .menu {
+  display: block;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Additional styling to customize the appearance of the hamburger menu */
 
 
   
